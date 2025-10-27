@@ -73,10 +73,10 @@ Day3_variable-ai/
 │
 ├── day3_variables_ai.py
 ├── README.md
-└── Screenshot/
+└── Screenshots/
     ├── day3_output.jpg
     ├── day3_folder_structure.jpg
-    └── day3_github_repo.jpg
+    └── day3_Final_GitHub_Update.jpg
 
 📘 Key Concepts Covered
 
