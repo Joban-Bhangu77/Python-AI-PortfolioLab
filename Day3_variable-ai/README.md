@@ -57,10 +57,10 @@ else:
 🧮 Output Preview:
 Hello, Joban
 Age: 25
-Height: 5.9
+Height: 6.1
 Learning Python True
 Hobbies: ['Coding', 'Soccer', 'Reading']
-Age in 5 years: 30
+Age in 5 years: 34
 Uppercase Name: JOBAN
 First Hobby: Coding
 
