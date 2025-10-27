@@ -1,3 +1,4 @@
+
 # 🧠 Day 3: Variables & Mini AI Guessing Game  
 
 ## 💻 Project Overview  
@@ -28,8 +29,8 @@ The user tries to guess a random number between 1 and 10 — showing how logic a
 # day3_variables_ai.py
 
 name = "Joban"
-age = 25
-height = 5.9
+age = 29
+height = 6.1
 is_learning = True
 hobbies = ["Coding", "Soccer", "Reading"]
 
@@ -56,7 +57,7 @@ else:
 
 🧮 Output Preview:
 Hello, Joban
-Age: 25
+Age: 29
 Height: 6.1
 Learning Python True
 Hobbies: ['Coding', 'Soccer', 'Reading']
