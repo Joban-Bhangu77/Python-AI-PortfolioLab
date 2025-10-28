@@ -76,6 +76,7 @@ Day3_variable-ai/
 └── Screenshots/
     ├── day3_output.jpg
     ├── day3_folder_structure.jpg
+    ├── day3_github_repo.jpg
     └── day3_Final_GitHub_Update.jpg
 
 📘 Key Concepts Covered
