@@ -58,7 +58,7 @@ Break and Continue Example:
 Odd Number: 1
 Odd Number: 3
 
-📂 Folder Structure: 
+📂 Folder Structure:
 Day5_Loops/
 │
 ├── day5_loops.py
