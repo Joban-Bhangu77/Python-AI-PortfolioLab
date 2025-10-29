@@ -23,17 +23,16 @@ The **90-day journey** is structured to take a learner from foundational Python 
 
 The repository is organized chronologically and thematically to reflect the progressive learning journey:
 
-Python-AI-PortfolioLab/
-│
-├── Day01-10_Basics/ # Python fundamentals, OOP, and core exercises
-├── Day11-20_DataAnalysis/ # Data manipulation, cleaning, visualization, and EDA
-├── Day21-40_MachineLearning/ # ML algorithms, classification, regression, clustering
-├── Day41-60_DeepLearning/ # Neural networks, CNNs, RNNs, and AI model experiments
-├── Day61-80_Projects/ # Mini-projects integrating Python and AI concepts
-├── Day81-90_FinalPortfolio/ # Capstone projects demonstrating end-to-end solutions
-├── README.md
-└── requirements.txt # Python dependencies and libraries
+### Folder Descriptions:
 
+- **Day01-10_Basics/** – Python fundamentals, OOP, and core exercises  
+- **Day11-20_DataAnalysis/** – Data manipulation, cleaning, visualization, EDA  
+- **Day21-40_MachineLearning/** – Classification, regression, clustering projects  
+- **Day41-60_DeepLearning/** – Neural networks, CNNs, RNNs, AI model experiments  
+- **Day61-80_Projects/** – Mini-projects integrating Python & AI concepts  
+- **Day81-90_FinalPortfolio/** – Capstone projects demonstrating end-to-end solutions  
+- **README.md** – Project overview and documentation  
+- **requirements.txt** – Python dependencies and libraries
 
 Each folder contains **well-documented code**, **step-by-step instructions**, and **sample outputs** to make the learning and replication process seamless.
 
