@@ -66,7 +66,7 @@ Day5_Loops/
 └── Screenshots/
     ├── day5_output.jpg
     ├── day5_folder_structure.jpg
-    └── day5_github_repo.jpg
+    └── day5_Git_Push.jpg
 
 🔗 References:
 
