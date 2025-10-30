@@ -50,6 +50,7 @@ Day6_Data_Structures/
     ├── Day6_Program_Output.jpg
     └── Day6_folder_structure.jpg
     └── Day6-Code_Of_Program.jpg
+     └── Day6_Github_Push.jpg
     
 
 🔗 References: 
