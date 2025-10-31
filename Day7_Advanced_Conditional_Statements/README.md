@@ -3,6 +3,7 @@ Day 7 - Advanced Conditional Statements in Python 🐍
 This project demonstrates advanced conditional statements in Python, including if-elif-else, nested conditions, match-case statements (Python 3.10+), and inline (ternary) conditions.
 
 🔹 Code Examples
+1️⃣ Basic if-elif-else
 temperature = 25
 
 if temperature > 30:
@@ -51,6 +52,7 @@ Day7_Advanced_Conditional_Statements/
     └── Day7_Folder_Structure.jpg
 
 🔗 References
+
 Python Official Documentation – Control Flow Tools
 https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools
 
