@@ -1,12 +1,23 @@
-Day 7 - Advanced Conditional Statements in Python
 
-This project demonstrates advanced conditional statements in Python, including if-elif-else, nested conditions, match-case statements (Python 3.10+), and inline (ternary) conditions.
+Day 7 – Advanced Conditional Statements in Python
+
+Learn and practice advanced conditional statements in Python, including:
+
+✅ if-elif-else statements
+
+✅ Nested conditions
+
+✅ match-case statements (Python 3.10+)
+
+✅ Inline (ternary) conditions
 
 🔹 Project Overview
 
-Python conditional statements allow you to control the flow of a program by executing code only when certain conditions are met. This project covers:
+Conditional statements control the flow of a program, executing code only when certain conditions are met.
 
-🔹Basic if-elif-else statements – Decide outcomes based on multiple conditions.
+This project demonstrates:
+
+🔹Basic if-elif-else – Decide outcomes based on multiple conditions.
 
 🔹Nested if statements – Handle multiple conditions within a single branch.
 
@@ -15,7 +26,6 @@ Python conditional statements allow you to control the flow of a program by exec
 🔹Inline (ternary) conditions – Compact syntax for simple condition-based assignments.
 
 🔹 Code Examples
-
 1️⃣ Basic if-elif-else
 temperature = 25
 
@@ -54,6 +64,13 @@ number = 7
 result = "Even ✅" if number % 2 == 0 else "Odd ❌"
 print(result)
 
+🔹Expected Program Output:
+It's a nice day!
+Access Granted ✅
+Start of the work week 💼
+Odd ❌
+
+
 🔹 Folder Structure
 Day7_Advanced_Conditional_Statements/
 ├── Day7_Conditional_Logic.py
@@ -80,17 +97,16 @@ https://www.geeksforgeeks.org/python-if-else/
 5. Programiz – Python Ternary Operator
 https://www.programiz.com/python-programming/ternary-operator
 
-
 🔹 Conclusion
 
-Today’s project on Advanced Conditional Statements in Python helped reinforce the concept of controlling program flow using multiple decision-making techniques. By exploring:
+This project helped strengthen my understanding of decision-making in Python:
 
-if-elif-else statements for basic condition checks
+if-elif-else for basic condition checks
 
-Nested if statements for handling multiple levels of logic
+Nested conditions for multi-level logic
 
-Match-case statements (Python 3.10+) for readable multi-condition handling
+match-case for cleaner multi-condition handling (Python 3.10+)
 
 Inline ternary operators for concise conditional assignments
 
-I  now have a stronger grasp of how Python handles decision-making scenarios. Mastering these concepts is crucial for building robust, efficient, and readable Python applications.
+Mastering these concepts allows building robust, readable, and efficient Python applications.
