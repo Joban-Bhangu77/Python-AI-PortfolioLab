@@ -1,5 +1,9 @@
 ## 📁 Day 11 – Data Structures: Lists & Tuples
 
+## 🧩 Project Overview
+In Day 11, I focused on exploring **Python Data Structures** — specifically, **Lists and Tuples**, which are core building blocks for organizing and processing data.  
+
+
 ```
 Python-AI-PortfolioLab/
  ├── Day11_Data_Structues_List_&_Tuples/
