@@ -1,19 +1,35 @@
-Day 7 - Advanced Conditional Statements in Python 🐍
+# 🗓️ Day 7 – Conditional Statements in Python
 
-This project demonstrates advanced conditional statements in Python, including if-elif-else, nested conditions, match-case statements (Python 3.10+), and inline (ternary) conditions.
+## 🎯 Objective
+Today’s goal was to master Python’s **decision-making statements** that allow your program to make intelligent choices based on certain conditions.  
+You learned how to use **if, elif, else, nested if**, and advanced control structures like **match-case** and **ternary operators**.
 
-🔹 Code Examples
-1️⃣ Basic if-elif-else
+---
+
+## 🧠 Key Learning Topics
+- `if`, `elif`, `else` conditions  
+- Nested conditional logic  
+- `match-case` statement (Python 3.10+)  
+- Inline (Ternary) conditional expressions  
+
+---
+
+## 💻 Project File
+**File Name:** `Day7_Conditional_Statements.py`
+
+### 🧩 Code Overview
+```python
+# 1️⃣ Basic if-elif-else example
 temperature = 25
-
+ 
 if temperature > 30:
-    print("It's a hot day! ☀️")
+    print("It's is a hot day!")
 elif temperature > 20:
-    print("It's a nice day! 🌤️")
+    print("It's a nice day!")
 else:
-    print("It's cold outside! ❄️")
+    print("It's cold outside!")
 
-2️⃣ Nested if
+# 2️⃣ Nested if example
 age = 18
 has_id = True
 
@@ -23,7 +39,7 @@ if age >= 18:
     else:
         print("ID Required ❌")
 
-3️⃣ Match-case (Python 3.10+)
+# 3️⃣ Match-case example (Python 3.10+)
 day = "Monday"
 
 match day:
@@ -36,48 +52,58 @@ match day:
     case _:
         print("Midweek hustle 🔥")
 
-4️⃣ Inline (Ternary) Condition
+# 4️⃣ Inline (Ternary) condition
 number = 7
 result = "Even ✅" if number % 2 == 0 else "Odd ❌"
 print(result)
 
+🧩 Concept Demonstrations
+🔹 If-Elif-Else
+
+Controls logic flow based on multiple possible conditions.
+
+🔹 Nested If
+
+A conditional statement inside another if block — useful for layered checks.
+
+🔹 Match-Case
+
+A cleaner alternative to multiple if-elif chains (available in Python 3.10+).
+
+🔹 Ternary Operator
+
+Single-line shorthand for if-else — perfect for quick conditional assignments.
+
+🧮 Output Example
+It's a nice day!
+Access Granted ✅
+Start of the work week 💼
+Odd ❌
+
 📂 Folder Structure
-Day7_Advanced_Conditional_Statements/
+Python-AI-PortfolioLab/
 │
-├── Day7_Conditional_Logic.py
-├── README.md
-└── Screenshots/
-    ├── Day7_GitHub_Push.jpg
-    ├── Day7_Program_Output.jpg
-    └── Day7_Folder_Structure.jpg
+├── Day7_Conditional_Statements/
+│   ├── Day7_Conditional_Statements.py
+│   ├── Screenshots/
+│   │   ├── Day7_Code1.jpg
+│   │   ├── Day7_Code2.jpg
+        ├── Day7_Program_Output.jpg
+│   └── README.md
+│
+└── ...
 
-🔗 References
+🧭 How to Run
 
-Python Official Documentation – Control Flow Tools
-https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools
+Open your terminal or VS Code and execute:
 
-Real Python – Python Match Case
-https://realpython.com/python-match-case/
+cd Python-AI-PortfolioLab/Day7_Conditional_Statements
+python Day7_Conditional_Statements.py
 
-W3Schools – Python Conditional Operators
-https://www.w3schools.com/python/python_operators.asp
+🧾 Conclusion
 
-GeeksforGeeks – Python if, elif, else Statements
-https://www.geeksforgeeks.org/python-if-else/
-
-Programiz – Python Ternary Operator
-https://www.programiz.com/python-programming/ternary-operator
-
-🏁 Conclusion
-
-Day 7 helped me master Python decision-making techniques:
-
-if-elif-else for basic conditional checks
-
-Nested if for multi-level logic
-
-Match-case statements (Python 3.10+) for clean multi-condition handling
-
-Inline ternary operators for concise condition-based assignments
-
-These concepts are essential for building robust, readable, and efficient Python programs.
+✔ Learned how to make decisions in Python using if, elif, and else.
+✔ Practiced nested conditions for complex logic.
+✔ Explored the modern match-case structure.
+✔ Applied ternary conditions for concise logic expressions.
+✔ Strengthened your control flow foundation for upcoming projects.
