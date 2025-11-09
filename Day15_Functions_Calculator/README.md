@@ -1,91 +1,72 @@
 # 🧠 Day 15 – Python Functions and Calculator Project
 
-### 📅 Project Overview  
-In **Day 15** of my **Python & AI 90-Days Learning Journey**, I focused on understanding and mastering **functions** — one of the most essential building blocks of any programming language.  
-Functions help make code more **organized, reusable, and efficient**.  
+***
 
-After learning the theory, I applied these concepts by creating a **Simple Python Calculator** that performs basic arithmetic operations using functions.
+## 🌟 Project Title: Modular Arithmetic with Python Functions (Simple Calculator)
 
----
+**Author:** Jobanjit Singh
 
-### 🧩 Topics Covered
-- Defining and calling functions  
-- Function parameters and arguments  
-- Return statements  
-- Default arguments  
-- Variable scope (local vs global)  
-- Mini project: Simple Calculator  
+### **🗓️ Day 15 of Python & AI 90-Days Learning Journey**
 
 ---
 
-### 🧠 Learning Summary
+## 🎯 Overview
 
-| Concept | Description |
-|----------|--------------|
-| **Function Definition** | How to define a reusable block of code using `def` |
-| **Parameters & Arguments** | Passing data into functions for flexibility |
-| **Return Statement** | Sending output back from a function |
-| **Default Arguments** | Providing default values for parameters |
-| **Scope** | Understanding the difference between local and global variables |
+In **Day 15** of the learning journey, the primary focus was on establishing a solid foundation in **Python Functions**—the fundamental mechanism for creating organized, reusable, and efficient code.
 
----
+The theoretical concepts were immediately put into practice by developing a **Simple Python Calculator**. This project leverages multiple distinct functions to perform basic arithmetic operations, clearly demonstrating the benefits of **modular programming**.
 
-### 💻 Code Implementation
-
-#### 🧾 File Name:  
-`day15_functions_calculator.py`
-
-#### 🧠 Code Screenshot 1  
-![Day15_Code1](Day15_Code1.jpg)
-
-#### 🧠 Code Screenshot 2  
-![Day15_Code2](Day15_Code2.jpg)
+| **Key Feature** | **Functionality** |
+| :--- | :--- |
+| **Addition** | Implemented using a dedicated `add()` function. |
+| **Subtraction** | Implemented using a dedicated `subtract()` function. |
+| **Multiplication** | Implemented using a dedicated `multiply()` function. |
+| **Division** | Implemented using a dedicated `divide()` function with **error handling** for division by zero. |
 
 ---
 
-### ⚙️ Sample Output
-#### 📸 Output Screenshot  
-![Day15_Output](Day15_Output.jpg)
+## 📚 Core Learning Objectives
+
+| Concept | Status | Description |
+| :--- | :--- | :--- |
+| **Function Definition** | ✅ MASTERED | Defining reusable code blocks (`def` keyword). |
+| **Parameters & Arguments** | ✅ MASTERED | Passing data into functions for flexible operations. |
+| **Return Statements** | ✅ MASTERED | Sending computed results back from functions. |
+| **Variable Scope** | ✅ PRACTICED | Understanding local vs. global variable visibility. |
+| **Modular Design** | ✅ APPLIED | Structuring a program with multiple, interconnected functions. |
+
+---
+
+## ⚙️ Code and Usage
+
+### **Project File**
+
+The complete calculator logic is contained in the following file: day15_functions_calculator.py
+
+### **Sample Execution**
+
+The calculator takes two numbers and an operator as input, then calls the appropriate function to deliver the result.
 
 **Console Example:**
-🧮 Welcome to the Python Calculator!
-Select operation: +, -, *, /
-Enter operation: +
-Enter first number: 12
-Enter second number: 8
-Result: 20.0
 
+🧮 Welcome to the Python Calculator! Select operation: +, -, *, / Enter operation: + Enter first number: 12 Enter second number: 8 Result: 20.0
 
 ---
 
-### 🚀 Concepts Practiced
-- Building and calling multiple functions  
-- Passing and returning values  
-- Using conditionals within functions  
-- Handling division by zero errors  
-- Combining multiple Python concepts into a single mini-project  
+## 🔑 Key Takeaways
+
+1.  **Readability and Debugging:** Breaking the calculator into separate `add`, `subtract`, etc., functions makes the main program flow clean and easy to debug.
+2.  **Reusability:** Each arithmetic function can now be reused instantly in any other part of the program or future projects without needing to rewrite the logic.
+3.  **Error Handling:** The `divide` function was a key practice point for incorporating basic error handling (checking for division by zero) directly within the function logic.
 
 ---
 
-### 📘 Key Takeaways
-- Functions make the code modular and easier to debug.  
-- Return statements improve function usability in larger programs.  
-- Using multiple functions enhances reusability and structure.  
-- Practical understanding of real-world use cases like calculators.  
+## 🏁 Conclusion
+
+**Day 15** marks a crucial pivot in the learning journey: the transition from sequential scripts to **modular, professional code**.
+
+By successfully building the Simple Calculator using dedicated functions, I have solidified my confidence in defining logical boundaries within code and embracing the principles of **Don't Repeat Yourself (DRY)**. This foundation is essential, as functions form the backbone for creating scalable applications, sophisticated automation scripts, and complex data processing pipelines in future AI-related projects.
+
+From here onward, I will integrate **loops, conditionals, and functions** together to create increasingly advanced mini-projects.
 
 ---
-
-### 🧩 Project Structure
-📂 Day15_Functions_Calculator
-┣ 📜 day15_functions_calculator.py
-┣ 🖼️ Day15_Code1.jpg
-┣ 🖼️ Day15_Code2.jpg
-┣ 🖼️ Day15_Output.jpg
-┗ 📜 README.md
-
-
----
-
-### 🏁 Conclusion
-Today’s lesson strengthened my confidence in **modular coding practices** and **problem-solving** using Python functions.  
-From here onward, I’ll start integrating **loops, conditionals, and functions** together to create more advanced mini-projects in upcoming days.
