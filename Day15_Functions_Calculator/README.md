@@ -1,55 +1,88 @@
 # 🧠 Day 15 – Python Functions and Calculator Project
+# 
+#
+# This script demonstrates core Python function concepts and includes a mini-project:
+# a Simple Calculator using modular functions.
 
-***
+# --- Function Examples ---
 
-## 🌟 Project Title: Modular Arithmetic with Python Functions (Simple Calculator)
+### Fuction Definition
+def greet():
+    """Prints a simple greeting."""
+    print("Hello from a function..!!")
 
-**Author:** Jobanjit Singh
+# Call the simple function
+# greet()
 
-### **🗓️ Day 15 of Python & AI 90-Days Learning Journey**
+### Function with Parameters and Return Value
+def add_example(a, b):
+    """Adds two numbers and returns the result."""
+    return a + b
 
----
+# Example call:
+# result = add_example(5, 3)
+# print(f"Add Example Result: {result}")
 
-## 🎯 Overview
+### Function with Default Argument
+def greet_user(name="Jobanjit"):
+    """Greets a user, using a default name if none is provided."""
+    print(f"Welcome, {name}!")
 
-In **Day 15** of the learning journey, the primary focus was on establishing a solid foundation in **Python Functions**—the fundamental mechanism for creating organized, reusable, and efficient code.
+# Example calls:
+# greet_user()
+# greet_user("Python Enthusiast")
 
-The theoretical concepts were immediately put into practice by developing a **Simple Python Calculator**. This project leverages multiple distinct functions to perform basic arithmetic operations, clearly demonstrating the benefits of **modular programming**.
+### Local vs Global Variables
+x = 10  # global variable
 
-| **Key Feature** | **Functionality** |
-| :--- | :--- |
-| **Addition** | Implemented using a dedicated `add()` function. |
-| **Subtraction** | Implemented using a dedicated `subtract()` function. |
-| **Multiplication** | Implemented using a dedicated `multiply()` function. |
-| **Division** | Implemented using a dedicated `divide()` function with **error handling** for division by zero. |
+def test_scope():
+    """Demonstrates variable scope (local vs global)."""
+    x = 5  # local variable (only exists inside this function)
+    print("Inside function (local x):", x)
 
----
+# Call the scope test function
+# test_scope()
+# print("Outside function (global x):", x)
 
-## 📚 Core Learning Objectives
+# ----------------------------------------------------
+# 💻 Mini Project – Simple Calculator
+# ----------------------------------------------------
 
-| Concept | Status | Description |
-| :--- | :--- | :--- |
-| **Function Definition** | ✅ MASTERED | Defining reusable code blocks (`def` keyword). |
-| **Parameters & Arguments** | ✅ MASTERED | Passing data into functions for flexible operations. |
-| **Return Statements** | ✅ MASTERED | Sending computed results back from functions. |
-| **Variable Scope** | ✅ PRACTICED | Understanding local vs. global variable visibility. |
-| **Modular Design** | ✅ APPLIED | Structuring a program with multiple, interconnected functions. |
+def add(a, b):
+    """Returns the sum of two numbers."""
+    return a + b
 
----
+def subtract(a, b):
+    """Returns the difference between two numbers."""
+    return a - b
 
-## ⚙️ Code and Usage
+def multiply(a, b):
+    """Returns the product of two numbers."""
+    return a * b
 
-### **Project File**
+def divide(a, b):
+    """Returns the division of two numbers, handles division by zero error."""
+    if b != 0:
+        return a / b
+    else:
+        return "Error! Division by zero is not allowed."
 
-The complete calculator logic is contained in the following file: day15_functions_calculator.py
-
-### **Sample Execution**
-
-The calculator takes two numbers and an operator as input, then calls the appropriate function to deliver the result.
-
-**Console Example:**
-
-🧮 Welcome to the Python Calculator! Select operation: +, -, *, / Enter operation: + Enter first number: 12 Enter second number: 8 Result: 20.0
+def calculator():
+    """
+    Main function for the Simple Python Calculator project.
+    Takes user input for operation and two numbers, then calls the
+    appropriate arithmetic function.
+    """
+    print("\n" + "="*40)
+    print("🧮 Welcome to the Python Calculator!")
+    print("Select operation: +, -, *, /")
+    print("="*40)
+    
+    # Input handling
+    try:
+        operation = input("Enter operation: ")
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number
 
 ---
 
