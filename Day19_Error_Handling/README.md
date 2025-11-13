@@ -1,5 +1,5 @@
-# 📘 Day 19 — Error Handling in Python (try, except, else, finally)
-_✨ Part of the **Python & AI — 90 Days Learning Journey**_
+# 📘 Day 19: Error Handling in Python (try, except, else, finally)
+_✨ Part of the **Python & AI 90 Days Learning Journey**_
 
 ---
 
@@ -17,7 +17,7 @@ Instead of crashing, well-designed programs guide the user and handle issues gra
 
 ---
 
-# 🧩 Mini Project — Number Division Program
+# 🧩 Mini Project:  Number Division Program
 
 This project demonstrates how to safely divide two numbers while handling common user mistakes.
 
@@ -30,7 +30,7 @@ This project demonstrates how to safely divide two numbers while handling common
 
 ---
 
-# 🧪 Python Code — Day19_Error_Handling.py
+# 🧪 Python Code: Day19_Error_Handling.py
 
 ```python
 print("Welcome to Day 19 - Error Handling in Python!")
