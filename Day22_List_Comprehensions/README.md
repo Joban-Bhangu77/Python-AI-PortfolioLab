@@ -36,7 +36,10 @@ even_numbers = [n for n in numbers if n % 2 == 0]
 
 # 3️⃣ Conditional Expression: Labeling numbers as "Even" or "Odd"
 labels = ["Even" if n % 2 == 0 else "Odd" for n in numbers]
-2. String, Nested, and Function-Based ComprehensionsPython# 4️⃣ String Manipulation: Capitalizing names
+2. String, Nested, and Function-Based Comprehensions
+Python
+
+# 4️⃣ String Manipulation: Capitalizing names
 names = ["joban", "piyush", "cloud", "python"]
 capitalized = [name.capitalize() for name in names]
 
@@ -48,20 +51,23 @@ flattened = [item for row in matrix for item in row]
 def cube(x):
     return x ** 3
 cubes = [cube(n) for n in numbers]
-3. Advanced Ternary LogicPython# 7️⃣ Complex if...elif...else Logic (Ternary)
+3. Advanced Ternary Logic
+Python
+
+# 7️⃣ Complex if...elif...else Logic (Ternary)
 grades = [95, 67, 80, 45, 89]
 grade_labels = [
     ("A" if g >= 85 else "B" if g >= 70 else "C" if g >= 50 else "F")
     for g in grades
 ]
-4. Set and Dictionary ComprehensionsPython# 8️⃣ Set Comprehension: Generating unique characters
+4. Set and Dictionary Comprehensions
+Python
+
+# 8️⃣ Set Comprehension: Generating unique characters
 unique_letters = {char for char in "jobanjit"}
 
-# 8️⃣ Dictionary Comprehension: Mapping names to their lengths
+# 9️⃣ Dictionary Comprehension: Mapping names to their lengths
 name_lengths = {name: len(name) for name in names}
-🖼️ ScreenshotsDescriptionCode ScreenshotOutput ScreenshotVisual representation of the code and execution results.💡 Key TakeawaysReadability & Performance: List Comprehensions significantly reduce lines of code while often improving execution speed compared to traditional for loops.Versatility: The syntax supports filtering (if), transformation (if/else), and complex iteration (nesting).Consistency: The core comprehension structure applies uniformly to Lists, Sets, and Dictionaries, making it a universally valuable tool in Python.Professional Skill: This feature is a hallmark of professional, efficient, and Pythonic code, directly preparing for high-level data manipulation.🏁 ConclusionDay 22 successfully transformed an essential but often verbose programming task (list creation via loops) into an elegant, concise, and highly efficient feature. This is a critical skill for advancing into data-intensive fields like AI and Data Engineering.
-
-
 💡 Key Takeaways
 Readability & Performance: List Comprehensions significantly reduce lines of code while often improving execution speed compared to traditional for loops.
 
