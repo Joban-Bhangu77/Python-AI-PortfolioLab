@@ -35,7 +35,7 @@ squares = [n * n for n in numbers]
 even_numbers = [n for n in numbers if n % 2 == 0]
 
 # 3️⃣ Conditional Expression: Labeling numbers as "Even" or "Odd"
-labels = ["Even" if n % 2 == 0 else "Odd" for n in numbers]
+labels = ["Even" if n % 2 == 0 else "Odd" for n in numbers]z
 2. String, Nested, and Function-Based Comprehensions
 Python
 
