@@ -1,55 +1,48 @@
-📘 Day 25 – Python Dictionaries
-
+# Day 25 – Python Dictionaries
 Python & AI – 90 Days Journey
 
-🚀 Overview
+---
 
-Day 25 focuses on one of Python’s most powerful and flexible data structures — Dictionaries.
-They are used extensively in real-world applications like JSON data handling, APIs, configurations, NLP token maps, and AI/ML pipelines.
+## Overview
+Day 25 focuses on Python Dictionaries, one of the most important and flexible data structures. Dictionaries store data in key–value pairs and are widely used in JSON, APIs, configurations, machine learning workflows, and automation scripts.
 
-Today, you explored dictionary fundamentals, advanced operations, and created a meaningful mini-project using key–value data storage.
+This session covers dictionary creation, updating values, looping through dictionaries, dictionary methods, nested dictionaries, and an interactive mini-project.
 
-🎯 Learning Objectives
+---
 
-By the end of this session, you will understand:
+## Learning Objectives
+- Understand what dictionaries are  
+- Create and access key–value pairs  
+- Update dictionary values  
+- Loop through keys, values, and items  
+- Use common dictionary methods  
+- Build and use nested dictionaries  
+- Apply concepts through a mini-project  
 
-What Python Dictionaries are and how they work
+---
 
-Creating dictionaries from scratch
-
-Accessing, updating, and modifying dictionary data
-
-Looping through keys, values, and items
-
-Common dictionary methods
-
-Nested (multi-level) dictionaries
-
-Building an interactive mini project using dictionaries
-
-🧠 What Are Dictionaries?
-
-A dictionary in Python stores data in key–value pairs, making it ideal for structured information.
+## What Are Dictionaries?
+A dictionary in Python stores data in key–value pairs.
 
 Example:
 
+```python
 student = {
     "name": "Jobanjit",
     "age": 29,
     "skills": ["Python", "Networking", "Kubernetes"]
 }
+```
 
+Keys must be unique, values can be of any type, and dictionaries are mutable.
 
-Keys must be unique
+---
 
-Values can be of any type
+## Code Snippets
 
-Order is preserved (Python 3.7+)
+### 1. Creating and Accessing a Dictionary
 
-Dictionaries are mutable
-
-🧪 Code Snippets
-1️⃣ Creating and Accessing a Dictionary
+```python
 student = {
     "name": "Jobanjit",
     "age": 29,
@@ -59,32 +52,54 @@ student = {
 
 print(student["name"])
 print(student["skills"][0])
+```
 
-2️⃣ Adding & Updating Values
+---
+
+### 2. Adding and Updating Data
+
+```python
 student["country"] = "Canada"
 student["age"] = 30
+```
 
-3️⃣ Looping Through Dictionary
+---
+
+### 3. Looping Through a Dictionary
+
+```python
 for key, value in student.items():
-    print(key, "➡️", value)
+    print(key, ":", value)
+```
 
-4️⃣ Dictionary Methods
+---
+
+### 4. Dictionary Methods
+
+```python
 student.keys()
 student.values()
 student.items()
+```
 
-5️⃣ Nested Dictionaries (Advanced)
+---
+
+### 5. Nested Dictionaries
+
+```python
 network_devices = {
     "Router1": {"ip": "192.168.1.1", "vendor": "Cisco"},
     "Firewall": {"ip": "192.168.1.3", "vendor": "Palo Alto"}
 }
 
 print(network_devices["Firewall"]["vendor"])
+```
 
-🧩 Mini Project — Student Info System
+---
 
-This project collects student names and grades, stores them in a dictionary, and displays all records.
+## Mini Project – Student Info System
 
+```python
 student_data = {}
 
 num = int(input("How many students to add? "))
@@ -96,15 +111,17 @@ for i in range(num):
 
 print("\nFinal Student Records:")
 for name, grade in student_data.items():
-    print(name, "➡️", grade)
+    print(name, ":", grade)
+```
 
-📚 References
+---
 
-Python Official Documentation – Dictionaries
-https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+## References
+- Python Dictionaries: https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+- W3Schools Python Dictionary: https://www.w3schools.com/python/python_dictionaries.asp
+- RealPython Dictionary Guide: https://realpython.com/python-dicts/
 
-W3Schools – Python Dictionary Guide
-https://www.w3schools.com/python/python_dictionaries.asp
+---
 
-Real Python – Dictionaries Deep Dive
-https://realpython.com/python-dicts/
+## Conclusion
+Day 25 strengthened your understanding of Python dictionaries, a fundamental structure used everywhere in real-world development and AI/ML applications. By mastering dictionary operations, looping, and nested structures, you are now prepared for more complex data-driven tasks.
