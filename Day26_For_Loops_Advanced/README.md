@@ -61,9 +61,9 @@ A **Student Marks Analyzer** that calculates:
 ---
 
 ## ✅ Conclusion  
-Day 26 strengthened your understanding of **advanced looping techniques**, enabling you to write cleaner, smarter, and more efficient code. These concepts are the backbone of data transformation, automation scripts, and AI model pipelines.
+Day 26 strengthened my understanding of **advanced looping techniques**, enabling me to write cleaner, smarter, and more efficient code. These concepts are the backbone of data transformation, automation scripts, and AI model pipelines.
 
-🚀 Keep going strong — your Python & AI Journey is progressing amazingly!
+🚀 Keep going strong — my Python & AI Journey is progressing amazingly!
 
 
 
