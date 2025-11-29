@@ -3,7 +3,7 @@ Part of the Python & AI – 90 Days Journey
 
 ---
 
-## Introduction  
+## Introduction:  
 Day 29 of my Python & AI learning journey focused on mastering the most important part of Python programming: functions. Functions make code clean, modular, reusable, and scalable. They power automation, DevOps, backend systems, and AI workflows.
 
 Today, I practiced:
@@ -16,7 +16,7 @@ Today, I practiced:
 
 ---
 
-## Why This Day Was Important  
+## Why This Day Was Important:  
 Functions are the foundation for:
 - Real-world applications  
 - AI/ML preprocessing pipelines  
@@ -28,7 +28,7 @@ Mastering functions means mastering Python.
 
 ---
 
-## Function Concepts Practiced
+## Function Concepts Practiced:
 
 ### 1. Function Arguments
 ```python
