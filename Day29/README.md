@@ -30,7 +30,7 @@ Mastering functions means mastering Python.
 
 ## Function Concepts Practiced:
 
-### 1. Function Arguments
+### 1. Function Arguments:
 ```python
 def greet(name, age):
     print(f"Hello {name}, you are {age} years old.")
