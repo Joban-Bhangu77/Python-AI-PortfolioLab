@@ -1,4 +1,4 @@
-```markdown
+
 🌟 Python & AI – 90 Days Portfolio Lab
 🚀 A Complete End-to-End Learning Journey (Day 01 → Day 90)
 
