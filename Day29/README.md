@@ -1,49 +1,57 @@
-🌟 Day 29 – Python Functions, Args/Kwargs, Lambda & Smart Calculator
+Day 29 – Python Functions, Args/Kwargs, Lambda and Smart Calculator
 
 Part of the Python & AI – 90 Days Journey
 
-📘 Overview
+Overview
 
-Today’s focus was on strengthening Python functions by learning:
+Today I practiced Python functions in depth, including:
 
 Function arguments
 
 Default parameters
 
-*args and **kwargs
+*args
 
-Lambda (anonymous) functions
+**kwargs
 
-A hands-on mini project: Smart Calculator
+Lambda expressions
 
-These concepts help build clean, reusable, and scalable code — essential for automation, AI, DevOps, and backend scripting.
+A complete Smart Calculator project
 
-🧠 What I Learned Today
-🔹 1. Function Arguments
+Concepts Practiced
+1. Function Arguments
 def greet(name, age):
     print(f"Hello {name}, you are {age} years old.")
 
-🔹 2. Default Arguments
+greet("Joban", 29)
+
+2. Default Arguments
 def welcome(name="Guest"):
     print("Welcome,", name)
 
-🔹 3. *args (Multiple Positional Arguments)
+welcome()
+welcome("Joban")
+
+3. *args (Multiple Positional Arguments)
 def add_numbers(*nums):
     return sum(nums)
 
-🔹 4. **kwargs (Multiple Keyword Arguments)
+print(add_numbers(10, 20, 30))
+
+4. **kwargs (Multiple Keyword Arguments)
 def user_info(**details):
     print(details)
 
-🔹 5. Lambda Functions
+user_info(name="Joban", country="Canada", role="Cloud Engineer")
+
+5. Lambda Functions
 square = lambda x: x * x
 add = lambda a, b: a + b
 
-🤖 Mini Project – Smart Calculator
+print(square(7))
+print(add(10, 20))
 
-A command-line calculator that supports addition, subtraction, multiplication, and division.
-
-✔️ Smart Calculator Code
+Smart Calculator Project (Full Code)
 def add(*nums):
     return sum(nums)
 
@@ -58,16 +66,16 @@ def multiply(*nums):
 
 def divide(a, b):
     if b == 0:
-        return "❌ Cannot divide by zero!"
+        return "Cannot divide by zero"
     return a / b
 
 def smart_calculator():
-    print("\n🤖 Smart Calculator – Joban Edition 🤖")
+    print("\nSmart Calculator – Joban Edition")
     print("\nSelect Operation:")
-    print("1️⃣ Add")
-    print("2️⃣ Subtract")
-    print("3️⃣ Multiply")
-    print("4️⃣ Divide")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
 
     choice = input("\nEnter your choice (1-4): ")
 
@@ -90,21 +98,22 @@ def smart_calculator():
         print("Result:", divide(a, b))
 
     else:
-        print("❌ Invalid Option")
+        print("Invalid Option")
 
-🚀 Key Takeaways
+smart_calculator()
 
-Functions improve modularity and reusability
+Key Takeaways
 
-*args and **kwargs allow flexible input handling
+Functions make code reusable and organized
 
-Lambda functions simplify logic
+*args and **kwargs allow flexible inputs
 
-Smart Calculator builds strong logic and reinforces function concepts
+Lambda functions simplify small operations
 
-These fundamentals are essential for AI, automation, and real-world programming
+The Smart Calculator helped practice logic flow and user input
 
-🎯 Final Thoughts
+These concepts form the base for automation, AI logic, and larger Python projects
 
-Day 29 boosted my understanding of structured, clean, and reusable Python code.
-You're leveling up with every single day — keep pushing forward! 💪🔥
+Final Notes
+
+Day 29 helped strengthen my core Python fundamentals and improved my function-writing confidence. On to Day 30 next!
