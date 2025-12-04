@@ -1,75 +1,57 @@
-🌟 Day 32 – User Input, Validation & Smart Python Calculator
+# 🌟 Day 32 – User Input, Validation & Smart Python Calculator  
+Part of the **Python & AI – 90 Days Journey**
 
-Part of the Python & AI – 90 Days Journey
+## 📘 Overview  
+Day 32 focuses on one of the most fundamental skills in Python — **working with user input** and **building logic-driven programs** that interact with real users.  
 
-📘 Overview
+These concepts form the backbone of many AI and automation workflows, including:  
+- Chatbots  
+- CLI-based utilities  
+- Data collection & preprocessing  
+- AI agents  
+- Interactive automation tools  
 
-Day 32 focuses on one of the most fundamental skills in Python — working with user input and building logic-driven programs that interact with real users.
+Today’s project includes:  
+- Taking user input  
+- Validating numeric values  
+- Implementing a menu-driven calculator  
+- Handling invalid cases (like division by zero)  
+- Producing clean, meaningful output for users  
 
-These concepts form the backbone of many AI and automation workflows, including:
+This day builds both **logic-building** and **error-handling** muscles — essential for AI coding and future automation tasks.
 
-Chatbots
+---
 
-CLI-based utilities
+## 🧠 What I Learned Today
 
-Data collection & preprocessing
+### 🔹 1. Input Handling (`input()`)
+- Accepting dynamic user data  
+- Storing it in variables  
+- Using it inside logic blocks  
 
-AI agents
-
-Interactive automation tools
-
-Today’s project includes:
-
-Taking user input
-
-Validating numeric values
-
-Implementing a menu-driven calculator
-
-Handling invalid cases (like division by zero)
-
-Producing clean, meaningful output for users
-
-This day builds both logic-building and error-handling muscles — essential for AI coding and future automation tasks.
-
-🧠 What I Learned Today
-🔹 1. Input Handling (input())
-
-Accepting dynamic user data
-
-Storing it in variables
-
-Using it inside logic blocks
-
-🔹 2. Input Validation (try/except)
-
+### 🔹 2. Input Validation (`try/except`)
 Ensures the program never crashes and always guides the user properly.
 
-🔹 3. Building Reusable Functions
+### 🔹 3. Building Reusable Functions  
+Created a custom `get_number()` function that loops until valid numeric input is given.
 
-Created a custom get_number() function that loops until valid numeric input is given.
+### 🔹 4. Menu-Driven Program Design  
+User chooses operations like:  
+- Add  
+- Subtract  
+- Multiply  
+- Divide  
+- Modulus  
+- Power  
 
-🔹 4. Menu-Driven Program Design
-
-User chooses operations like:
-
-Add
-
-Subtract
-
-Multiply
-
-Divide
-
-Modulus
-
-Power
-
-🔹 5. Error Handling (Zero Division, Invalid Choices)
-
+### 🔹 5. Error Handling (Zero Division, Invalid Choices)  
 Handled multiple user mistakes gracefully.
 
-🧪 Day 32 – Python Script
+---
+
+## 🧪 Day 32 – Python Script
+
+```python
 # Day 32 – User Input, Validation & Basic Calculator
 # Part of Python & AI – 90 Days Journey
 
@@ -139,32 +121,31 @@ if result is not None:
 
 print("\n🎉 Amazing work! You just completed Day 32 of your Python & AI Journey!")
 print("-----------------------------------------------------------")
+```
 
-🚀 Key Takeaways
+---
 
-Reading and validating user input is the first real step toward building AI-ready applications.
+## 🚀 Key Takeaways
+- Reading and validating user input is the first real step toward building AI-ready applications.  
+- Logic-based calculators strengthen algorithmic thinking.  
+- Error handling prevents crashes and teaches you defensive programming.  
+- This project forms the foundation for future **interactive AI agents**, **data tools**, and **automation scripts**.
 
-Logic-based calculators strengthen algorithmic thinking.
+---
 
-Error handling prevents crashes and teaches you defensive programming.
-
-This project forms the foundation for future interactive AI agents, data tools, and automation scripts.
-
-📝 Mini Challenges (Optional)
-
+## 📝 Mini Challenges (Optional)
 Try enhancing the calculator by adding:
 
-⭐ Repeat loop → "Do you want to calculate again?"
-⭐ Square root, logarithm, rounding operations
-⭐ Input validation with custom exceptions
-⭐ Colorful outputs using Python colorama
+⭐ Repeat loop → "Do you want to calculate again?"  
+⭐ Square root, logarithm, rounding operations  
+⭐ Input validation with custom exceptions  
+⭐ Colorful outputs using Python `colorama`  
 
-These will take your Day 32 project to the next level.
+---
 
-🏁 Conclusion
+## 🏁 Conclusion  
+Today’s milestone continues building your confidence and capability in Python.  
+You didn’t just code — you built an interactive system that thinks, reacts, and responds like a real application.  
 
-Today’s milestone continues building your confidence and capability in Python.
-You didn’t just code — you built an interactive system that thinks, reacts, and responds like a real application.
-
-🔥 Day 32 completed. Onwards to Day 33!
+🔥 **Day 32 completed. Onwards to Day 33!**  
 Your Python foundation is getting stronger every day — keep going! 💪🐍
