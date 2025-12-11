@@ -1,0 +1,20 @@
+PS C:\Users\joban> & C:/Users/joban/AppData/Local/Programs/Python/Python314/python.exe c:/Users/joban/Desktop/Python-AI-PortfolioLab/Day38/Day38_Tuples.py
+Fruits Tuple: ('Apple', 'Banana', 'Cherry')
+Numbers Tuple: (10, 20, 30, 40, 50)
+First fruit: Apple
+Last number: 50
+Length of fruits tuple: 3
+Slice numbers (1:4): (20, 30, 40)
+Is 'Banana' in fruits? True
+❌ Tuples cannot be modified (immutable)
+Person Tuple: ('Jobanjit', 29, 'Engineer', True)
+Latitude: 45.123
+Longitude: -79.456
+Fruit: Apple
+Fruit: Banana
+Fruit: Cherry
+Count of 20 in numbers: 1
+Index of 30: 2
+
+🎉 Day 38 practice complete!
+PS C:\Users\joban>
