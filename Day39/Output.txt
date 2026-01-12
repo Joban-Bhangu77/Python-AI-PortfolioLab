@@ -1,0 +1,22 @@
+🔹Program 1: Hello World & Introduction
+Hello World
+Welcome to Python Programming!
+Let's get started with Python basics.
+This is a simple Python script.
+Enjoy coding in Python!
+
+
+🔹Program 2: Variables & Data Types
+Name: Jobanjit
+Age: 29
+Height: 6.0
+Is learning Python: True
+Age after 5 years: 34
+
+
+🔹Program 3: User Input & Conditional Logic
+Enter your name: Jobanjit
+Enter your age: 29
+Hello Jobanjit
+You are eligible to vote.
+
